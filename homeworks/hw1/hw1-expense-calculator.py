@@ -5,6 +5,7 @@ Date: 26/07/2025
 Purpose: Calculate monthly budget and savings
 """
 
+
 monthly_income = float(input("Enter your monthly income (THB): "))
 rent_cost = float(input("Enter your monthly rent/housing cost (THB): "))
 food_budget = int(input("Enter your monthly food budget (THB): "))
@@ -22,7 +23,7 @@ investment_amount = monthly_income * (investment_percent / 100)
 available_for_savings = remaining_income - emergency_fund_amount - investment_amount
 expense_ratio = (total_expenses / monthly_income) * 100
 
-print("\nMONTHLY BUDGET REPORT ===")
+print("===\nMONTHLY BUDGET REPORT  ===")
 print(f"Income: {monthly_income:.2f} THB")
 print(f"Fixed Expenses: {total_fixed_expenses:.2f} THB")
 print(f"Variable Expenses: {total_variable_expenses:.2f} THB")
@@ -36,3 +37,4 @@ print(f"Available for Savings: {available_for_savings:.2f} THB")
 
 print("\n=== ANALYSIS ===")
 print(f"Expense Ratio: {expense_ratio:.2f}%")
+
