@@ -1,7 +1,7 @@
 """
 Personal Finance Calculator
-Student: [Your Name]
-Date: [Today's Date]
+Student: Jeerawat Wattanajiradej 6730251069
+Date: 26/07/2025
 Purpose: Calculate monthly budget and savings
 """
 
@@ -22,14 +22,14 @@ investment_amount = monthly_income * (investment_percent / 100)
 available_for_savings = remaining_income - emergency_fund_amount - investment_amount
 expense_ratio = (total_expenses / monthly_income) * 100
 
-print("\n=== MONTHLY BUDGET REPORT ===")
+print("\nMONTHLY BUDGET REPORT ===")
 print(f"Income: {monthly_income:.2f} THB")
 print(f"Fixed Expenses: {total_fixed_expenses:.2f} THB")
 print(f"Variable Expenses: {total_variable_expenses:.2f} THB")
 print(f"Total Expenses: {total_expenses:.2f} THB")
 print(f"Remaining: {remaining_income:.2f} THB")
 
-print("\n=== SAVINGS BREAKDOWN ===")
+print("\n==SAVINGS BREAKDOWN ===")
 print(f"Emergency Fund ({emergency_fund_percent}%): {emergency_fund_amount:.2f} THB")
 print(f"Investment ({investment_percent}%): {investment_amount:.2f} THB")
 print(f"Available for Savings: {available_for_savings:.2f} THB")
