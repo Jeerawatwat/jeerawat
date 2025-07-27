@@ -23,7 +23,7 @@ investment_amount = monthly_income * (investment_percent / 100)
 available_for_savings = remaining_income - emergency_fund_amount - investment_amount
 expense_ratio = (total_expenses / monthly_income) * 100
 
-print("===\nMONTHLY BUDGET REPORT  ===")
+print("\n=== MONTHLY BUDGET REPORT  ===")
 print(f"Income: {monthly_income:.2f} THB")
 print(f"Fixed Expenses: {total_fixed_expenses:.2f} THB")
 print(f"Variable Expenses: {total_variable_expenses:.2f} THB")
