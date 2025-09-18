@@ -25,3 +25,19 @@ Example
     Congratulations! You won in 3 attempts!
 
 """
+import random
+
+def test_random():
+    random_number = random.randint(1, 20)
+    print("โปรเเกรมทายเลข 1-20")
+    for i in range(6):
+        Totalrandom = int(input("EnterNumber ="))   
+        if random_number == Totalrandom:
+            print("correct")
+            break
+        elif random_number > Totalrandom:
+            print(f"อาจะยังน้า น้อยไปนิดนึง ครั้งที่{i+1}")   
+        elif random_number < Totalrandom:
+            print(f"อาจจะยังน้า มากไปนิดนิง ครี่งที่{i+1}")
+    print(random_number)   
+test_random()

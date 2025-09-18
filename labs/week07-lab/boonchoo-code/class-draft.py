@@ -1,5 +1,6 @@
 class ClassName:
     """Class docstring"""
+    sample_attribute = 0
     
     def __init__(self, parameters):
         # Constructor method
